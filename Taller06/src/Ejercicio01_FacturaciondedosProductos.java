@@ -34,8 +34,6 @@ public class Ejercicio01_FacturaciondedosProductos {
         if (subtotal > 1000) {
             descuento = (subtotal * 0.20);
             subtotal = (subtotal - descuento);
-            //System.out.println("El costo total es: " + subtotal + ", " + "El descuento es de 20%" + ", " + "El costo final es: " + totaldescuento);
-
         } else if (subtotal == 1000) {
             descuento = (subtotal * 0.05);
             subtotal = subtotal - descuento;
@@ -45,6 +43,6 @@ public class Ejercicio01_FacturaciondedosProductos {
             System.out.println("El envio es gratis.");
         }
         costofinal = subtotal + iva + costoEnvio;
-        System.out.println("El costo total es: " + costoProd + ", "  + "el descuento es de: " + descuento + ", " + "el costo final es: " + costofinal);
+        System.out.println("El costo total es: $" + costoProd + ", " + "Costo de los productos sin IVA: $" + subtotal + ", " + "el descuento es de: $" + descuento + ", " + "el costo final es: $" + costofinal);
     }
 }
