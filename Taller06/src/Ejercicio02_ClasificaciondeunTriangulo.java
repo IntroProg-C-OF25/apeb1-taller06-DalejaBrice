@@ -23,7 +23,6 @@ public class Ejercicio02_ClasificaciondeunTriangulo {
         } else if (((lado1 == lado2 || lado1 == lado3) || (lado2 == lado3))) {
             System.out.println("Triangulo isosceles");
         } else {
-            //if (((lado1 > lado2) || (lado1 < lado2)) && ((lado1 < lado3)|| (lado1 > lado3)) && ((lado2 < lado3) || (lado2 > lado3))) {
             System.out.println("Triangulo escaleno");
         }
     }
